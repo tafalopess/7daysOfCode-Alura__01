@@ -1,0 +1,25 @@
+@import url("./navbar.css");
+@import url("./header.css");
+@import url("./company-data.css");
+@import url("./banner.css");
+@import url("./jobs.css");
+@import url("./comments.css");
+@import url("./footer.css");
+
+:root {
+    --red: #8E2424;
+    --black: #101828;
+    --gray: #667085;
+    --white: #FFFFFF;
+    --background-red-small-button: rgba(142, 36, 36, 0.05);
+    --background-red-large-button: rgba(196, 25, 25, 0.03);
+    --border: #EAECF0;
+    --background-footer: #F9FAFB;
+    --footer-letter: #98A2B3;
+    --font: "Inter";
+    --border-footer: #D0D5DD;
+}
+
+body {
+    font-family: var(--font);
+}

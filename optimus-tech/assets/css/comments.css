@@ -1,0 +1,39 @@
+.comments {
+    margin: 10vh 10vw;
+    text-align: center;
+    padding: 6.66vh;
+    background-color: var(--background-red-large-button);
+    border-radius: 16px;
+}
+
+.comments-small-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--red);
+    margin-bottom: 1em;
+}
+
+.comments-title {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--black);
+    line-height: 44px;
+    width: 90%;
+    margin-bottom: 1em;
+}
+
+.comments-name {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--black);
+    margin-top: 1em;
+}
+
+.comments-job {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--gray);
+    margin-top: 0.5em;
+}

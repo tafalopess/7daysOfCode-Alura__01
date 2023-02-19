@@ -1,0 +1,49 @@
+footer {
+    padding: 10vh 0;
+    background-color: var(--background-footer);
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.footer-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+    margin: 1em 0 2em 0;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-list input {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+    padding: 0.8em 1em;
+    border-radius: 8px;
+    border: 0.5px solid var(--border-footer);
+    width: 90%;
+    margin-right: 5em;
+}
+
+.footer-list input::placeholder {
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray);
+}
+
+.copywrite {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--footer-letter);
+    margin-top: 2em;
+}

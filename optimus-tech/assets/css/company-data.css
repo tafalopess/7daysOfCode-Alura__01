@@ -1,0 +1,31 @@
+.company {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding-bottom: 10vh;
+}
+
+.company-data {
+    width: 18%;
+}
+
+.company-data__number {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--red);
+}
+
+.company-data__title {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--black);
+    margin: 1em 0;
+}
+
+.company-data__text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray);
+    line-height: 24px;
+}

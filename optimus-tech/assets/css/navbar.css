@@ -1,0 +1,49 @@
+nav {
+    padding: 3vh 8vw;
+    display: flex;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo__title{
+    padding-left: 0.5rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    padding-left: 10vw;
+}
+
+.navbar-buttons{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navbar-menu__item, .navbar-button__item {
+    padding-left: 2rem;
+}
+
+.navbar-menu__link {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--gray);
+    text-decoration: none;
+}
+
+.navbar-button__link {
+    background-color: var(--red);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--white);
+    text-decoration: none;
+    padding: 0.8em 1em;
+    border-radius: 10px;
+}
